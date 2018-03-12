@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+    background-color: #fff;
+}
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+.cover {
+    padding: 0 1.5rem;
+}
+
+.cover img {
+    width: 100vw;
+}

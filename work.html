@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Home page - Popa Adriana">
+    <meta name="author" content="Pucerea Dan">
+    <link rel="icon" href="./favicon/favicon.ico">
+    <title>AMP - Home</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./css/work.css" rel="stylesheet">
+</head>
+
+<body >
+<div class="selector">
+    <div class="container-fluid">
+        <div class="row">
+            <div id="description" class="col-11 col-md-8 col-lg-7 col-xl-5 px-0 vertical-item description">
+                <a href="./home.html">Work</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+            <div class="col-10 col-md-7 col-lg-6 col-xl-4 px-0 vertical-item architecture">
+                <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                    <p class="item-title text-center text-uppercase">architecture</p>
+                    <div class="btn btn-light text-uppercase mx-auto">view</div>
+                </div>
+            </div>
+            <div class="col-10 col-md-7 col-lg-6 col-xl-4 px-0 vertical-item restauration">
+                <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                    <p class="item-title text-center text-uppercase">restauration</p>
+                    <div class="btn btn-light text-uppercase mx-auto">view</div>
+                </div>
+            </div>
+            <div class="col-10 col-md-7 col-lg-6 col-xl-4 px-0 vertical-item urban-planning">
+                <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                    <p class="item-title text-center text-uppercase">urban planning</p>
+                    <div class="btn btn-light text-uppercase mx-auto">view</div>
+                </div>
+            </div>
+            <div class="col-10 col-md-7 col-lg-6 col-xl-4 px-0 vertical-item design">
+                <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                    <p class="item-title text-center text-uppercase">design</p>
+                    <div class="btn btn-light text-uppercase mx-auto">view</div>
+                </div>
+            </div>
+            <div class="col-10 col-md-7 col-lg-6 col-xl-4 px-0 vertical-item pictures">
+                <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                    <p class="item-title text-center text-uppercase">pictures</p>
+                    <div class="btn btn-light text-uppercase mx-auto">view</div>
+                </div>
+            </div>
+            <div class="col-10 col-md-7 col-lg-6 col-xl-4 px-0 vertical-item contests">
+                <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                    <p class="item-title text-center text-uppercase">contests</p>
+                    <div class="btn btn-light text-uppercase mx-auto">view</div>
+                </div>
+            </div>
+            <div class="col-10 col-md-7 col-lg-6 col-xl-4 px-0 vertical-item back">
+                <a href="#description">Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap/bootstrap.min.js"></script>
+    <script src="./js/jquery.mousewheel.js"></script>
+    <script>
+    $(document).ready(function () {
+        $('.selector').mousewheel(function(e, delta) {
+            this.scrollLeft -= (delta * 40);
+            e.preventDefault();
+        });
+    });
+    </script>
+</body>
+
+</html>
